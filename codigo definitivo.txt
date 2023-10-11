@@ -1,0 +1,966 @@
+<template>
+    <header>
+        <nav>
+            <img class="logo" src="@/assets/logo.png">
+            <div class="nav-1">
+                
+                <ul>
+                <li><a class="li-a" href="#">Home</a></li>
+                <li><a class="li-a" href="#">About</a></li>
+                <li><a class="li-a" href="#">Computer</a></li>
+                <li><a class="li-a" href="#">Laptop</a></li>
+                <li><a class="li-a" href="#">Products</a></li>
+                <li><a class="li-a" href="#">Contact</a></li>
+                <li><a class="li-a" href="#"><font-awesome-icon :icon="['fas', 'magnifying-glass']" /></a></li>
+                <li><a class="li-a" href="#">Login</a></li>
+            </ul>
+            </div>
+            <img src="@/assets/menu_icon.png" class="menu-movil">
+            <div class="nav_texts">
+                <h3 class="nav_text_1">Computer And Laptop</h3>
+                <h1 class="nav_text_2">Accessories</h1>
+                <p class="nav_text_3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or</p>
+            </div>
+            <div class="nav-buttons">
+                <a class="nav-btn" href="#">Buy Now</a>
+                <a class="nav-btn" href="#">Contact</a>
+               
+            </div>
+            <div class="nav-pct">
+                <img class="pct" src="@/assets/pct.png">
+            </div>
+        </nav>
+    </header>
+
+    <section class="cards">
+        <div class="card">
+            <img src="@/assets/thr.png" width="118px" height="102px">
+            <h5 class="card-2">Computer</h5>
+            <p class="card-3">There are many variations of
+                passages of Lorem Ipsum
+                available, but the majority have
+                suffered alteration in some form, by
+                injected humour, or randomised
+                words which don't look even slightly
+                believable</p>
+        </div>
+        <div class="card">
+            <img src="@/assets/thr1.png" width="118px" height="102px">
+            <h5 class="card-2">Laptop</h5>
+            <p class="card-3">There are many variations of
+                passages of Lorem Ipsum
+                available, but the majority have
+                suffered alteration in some form, by
+                injected humour, or randomised
+                words which don't look even slightly
+                believable</p>
+        </div>
+        <div class="card">
+            <img src="@/assets/thr2.png" width="118px" height="102px">
+            <h5 class="card-2">Tablet</h5>
+            <p class="card-3">There are many variations of
+                passages of Lorem Ipsum
+                available, but the majority have
+                suffered alteration in some form, by
+                injected humour, or randomised
+                words which don't look even slightly
+                believable</p>
+        </div>
+    </section>
+
+
+
+    <section class="products">
+            <h3 class="products-title">OUR PRODUCTS</h3>
+        <div class="products-prods">
+            <div class="prod-1">
+                <img src="@/assets/product1.png" width="203px" height="160px">
+                <h4 class="prod-title">Computer</h4>
+            </div>
+            <div class="prod-2">
+                <img src="@/assets/product2.png" width="203px" height="160px">
+                <h4 class="prod-title">Laptop</h4>
+            </div>
+            <div class="prod-3">
+                <img src="@/assets/product3.png" width="203px" height="160px">
+                <h4 class="prod-title">Tablet</h4>
+            </div>
+            <div class="prod-4">
+                <img src="@/assets/product4.png" width="203px" height="160px">
+                <h4 class="prod-title">Speakers</h4>
+            </div>
+            <div class="prod-5">
+                <img src="@/assets/product5.png" width="203px" height="160px">
+                <h4 class="prod-title">Internet</h4>
+            </div>
+            <div class="prod-6">
+                <img src="@/assets/product6.png" width="203px" height="160px">
+                <h4 class="prod-title">Hardisk</h4>
+            </div>
+            <div class="prod-7">
+                <img src="@/assets/product7.png" width="203px" height="160px">
+                <h4 class="prod-title">Rams</h4>
+            </div>
+            <div class="prod-8">
+                <img src="@/assets/product8.png" width="203px" height="160px">
+                <h4 class="prod-title">Bettery</h4>
+            </div>
+            <div class="prod-9">
+                <img src="@/assets/product9.png" width="203px" height="160px">
+                <h4 class="prod-title">Drive</h4>
+            </div>
+            <a href="#" class="see-more">See More</a>
+        </div>
+    </section>
+
+
+    <section class="cp">
+            <div class="computer_texts">
+                <h3 class="computer_text_1">Every Computer and Laptop</h3>
+                <h1 class="computer_text_2">Up To 40% off !</h1>
+            </div>
+            <div class="computer-buttons">
+                <a class="computer-btn" href="#">Shop Now</a>
+            </div>
+            <div>
+                <img class="computer-pc" src="@/assets/pc.png" >
+            </div>
+    </section>
+
+    <section class="review">
+        <h1 class="review-text-1">CUSTOMER REVIEW</h1>
+        <div class="review-texts">
+            <img class="review-img" src="@/assets/cos.png" width="43px" height="33px">
+        <h3 class="review-text-2">Sandy Miller</h3>
+        <p class="review-text-3">Ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt
+        ut labore el dolore magna aliqua.
+        Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco
+        lamoris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat
+        nulla pariatur. Excepteur sint
+        accaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt
+        mollit anim id</p>
+        </div>
+    </section>
+
+
+    <section class="form">
+        <h1 class="form-text-1">CONTACT NOW</h1>
+            <form class="form-div">
+                <input class="input" type="text" placeholder="Name" required>
+                <input class="input" type="email" placeholder="Email" required>
+                <input class="input" type="number" placeholder="Phone Number" required>
+                <input class="input-1" type="text" placeholder="Message">
+                <button class="submit" type="submit">SEND</button>
+            </form>
+    </section>
+    <footer>
+        <div class="footer-1">
+            <div class="footer-icons">
+                <img class="logo1" src="@/assets/logo1.png" width="78px" height="82px">
+                <div class="footer-redes">
+                    <a href="https://www.facebook.com/login/" target="_blank"><font-awesome-icon class="icon-1" :icon="['fab', 'facebook']" /></a>
+                    <a href="https://twitter.com" target="_blank"><font-awesome-icon class="icon" :icon="['fab', 'twitter']" /></a>
+                    <a href="https://ar.linkedin.com/" target="_blank"><font-awesome-icon class="icon" :icon="['fab', 'linkedin']" /></a>
+                    <a href="https://www.instagram.com/" target="_blank"><font-awesome-icon class="icon" :icon="['fab', 'instagram']" /></a>
+                </div>
+            </div>
+            <div class="footer-text-1">
+                <h5 class="footer-text-title">About Us</h5>
+                <p>dolor sit amet, consectetur magna aliqua.
+                    Ut enim ad minim veniam, 
+                    quisdotempor incididunt r</p>
+            </div>
+            <div class="footer-text-2">
+                <h5 class="footer-text-title">Contact Us</h5>
+                <p>dolor sit amet, consectetur magna aliqua.
+                    quisdotempor incididunt ut e</p>
+            </div>
+            <form class="footer-newsletter">
+                <h5 class="footer-text-title">Newsletter</h5>
+                <input class="newsletter-input" type="email" placeholder="Enter your email">
+                <button class="newsletter-button" type="submit">SUBSCRIBE</button>
+            </form>
+        </div>
+        <div class="right-reserve">
+            <p>© 2023 All Rights Reserved. Design by Javier Fioquetti</p>
+        </div>
+    </footer>
+
+    
+</template>
+
+<script setup>
+
+</script>
+
+
+
+
+
+<style scoped>
+
+html {
+    font-size: 16px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins-Regular';
+    
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('@/assets/Fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: Poppins-bold;
+    src: url('@/assets/Fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: Poppins-ExtraBold;
+    src: url('@/assets/Fonts/Poppins-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: Poppins-Light;
+    src: url('@/assets/Fonts/Poppins-Light.ttf');
+}
+
+@font-face {
+    font-family: IcoMoon;
+    src: url('@/assets/Fonts/IcoMoon-Free.ttf');
+}
+
+header {
+    background-image: url(@/assets/banner.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 140vh;
+    background-repeat: no-repeat;
+}
+
+
+.logo {
+    width: 78px;
+    height: 82px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.nav-1 {
+    display: flex;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.menu-movil {
+    width: 36px;
+    height: 21px;
+    position: relative;
+    margin-top: -80px;
+    margin-left: 80%;
+    display: none;
+}
+
+ul {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    top: -65px;
+    width: 800px;
+    left: 480px;
+}
+li, .li-a {
+    display: flex;
+    position: relative;
+    list-style: none;
+    color:  white;
+    text-decoration: none;
+}
+li, .li-a:hover {
+    cursor: pointer;
+    color: #71ef83;
+}
+
+.nav_texts {
+    display: flex;
+    display: block;
+    margin-left: 2.5rem;
+    margin-top: 5.625rem;
+
+}
+
+.nav_text_1, .nav_text_2, .nav_text_3 {
+    position: relative;
+    color: white;
+    
+}
+.nav_text_1 {
+    font-size: 2.375rem;
+    font-family: 'Poppins-Light';
+    font-stretch: ultra-expanded;
+    
+    width: 31.25rem;
+
+}
+.nav_text_2 {
+    font-family: 'Poppins-bold';
+    font-size: 4.5rem;
+}
+
+.nav_text_3 {
+    font-size: medium;
+    margin-top: 1.25rem;
+    width: 31.25rem;
+}
+.nav-pct {
+    display: flex;
+    position: relative;
+}
+
+.pct {
+    position: relative;
+    width: 37.25rem;
+    height: auto;
+    display: inline;
+    top:-21.875rem;
+   margin-left: 35rem;
+}
+
+.nav-buttons {
+    display: flex;
+    width: 31.25rem;
+    margin-top: 1.875rem;
+    margin-left: 1.25rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.nav-btn {
+    
+    width: 12.5em;
+    height: 3.125em;
+    padding: 0.625em;
+    margin-left: 0.625em;
+    border: 0.125em solid white;
+    background-color: inherit;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Poppins-bold';
+}
+.nav-btn:hover {
+    background-color: white;
+    color: inherit;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    background-color:  #ffffff;
+    border-top: 1.25rem;
+    padding-top: 1.25rem;
+    padding-bottom: 3.75rem;
+}
+.card {
+    display: flex;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 3.125rem 0.625rem 0.625rem 0.625rem;
+    border: 0.0625rem solid #71ef83;
+    border-radius: 5%;
+    background-color: inherit;
+    width: 18.75rem;
+    height: 26.25rem;
+    margin: 0.625rem;
+    overflow: hidden;
+}
+.card-2 {
+    font-family: 'Poppins-ExtraBold';
+    font-size: large;
+    padding-top: 0.625rem;
+    padding-bottom: 1.875rem;
+}
+
+
+
+
+.products {
+    display: flex;
+    background-color: #f7f7f7;
+    justify-content: center;
+    display: block;
+    border-top: 1.25rem;
+    padding-top: 1.25rem;
+    padding-bottom: 3.75rem;
+    overflow: hidden;
+}
+.products-title {
+    position: relative;
+    display: inline;
+    top: 3.125rem;
+    border-bottom: 0.0625rem solid #71ef83;
+    left: 36.25rem;
+}
+
+.products-prods {
+    background-color: #ffffff;
+    position: relative;
+    padding-bottom: 1.25rem;
+    width: 56.25rem;
+    height: 75rem;
+    top: 6.25rem;
+    left: 12.50rem;
+    margin-bottom: 6.25rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.prod-title {
+    position: relative;
+    background-color: black;
+    color: #ffffff;
+    top: 0.625rem;
+    display: inline-flex;
+    width: 12.69rem;
+    justify-content: center;
+}
+
+.see-more {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #5cbe97;
+    left: 21.25rem;
+    top: 1.25rem;
+    width: 14.375rem;
+    height: 3.125rem;
+    border: 0.125rem solid #5cbe97;
+    background-color: inherit;
+    text-decoration: none;
+    
+}
+
+.see-more:hover {
+    color: #ffffff;
+    border: 0.125rem solid #ffffff;
+    background-color: #5cbe97;
+    
+}
+
+
+
+.cp {
+    background-image: url(@/assets/cross.png);
+    background-size: cover;
+    height: 25rem;
+    width: 100vw;
+}
+
+
+.computer_texts {
+    display: flex;
+    display: block;
+    padding: 6.25rem;
+}
+
+.computer_text_1, .computer_text_2 {
+    position: relative;
+    text-align: left;
+    color: white;
+    left: 6.25rem;
+    margin-bottom: 1.25rem;
+    
+    
+}
+.computer_text_1 {
+    font-size: large;
+
+}
+.computer_text_2 {
+    font-family: 'IcoMoon';
+    font-size: 3.125rem;
+}
+
+.computer-pc {
+    display: flex;
+    position: relative;
+    display: inline;
+    top: -18.75rem;
+    left: 37.5rem;
+    width: 36.75rem;
+    height: 14.6875rem;
+   
+
+}
+
+
+.computer-buttons {
+    display: flex;
+    position: relative;
+    width: 18.75rem;
+    align-items: center;
+    justify-content: center;
+    top: -4.375rem;
+    left: 8.75rem;
+    
+}
+
+.computer-btn {
+    
+    width: 12.5rem;
+    height: 3.125rem;
+    padding: 0.625rem;
+    margin-left: 1.875rem;
+    background-color: #47ca94;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.computer-btn:hover {
+    background-color: white;
+    color: #47ca94;
+}
+
+
+
+.review {
+    display: flex;
+    display: block;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.25rem;
+    padding-bottom: 6.25rem;
+    
+}
+.review-text-1 {
+    position: relative;
+    display: inline-block;
+    top: 1.875rem;
+    bottom: 3.125rem;
+    left: 33.75rem;
+    font-family: 'Poppins-ExtraBold';
+    margin-bottom: 1.875rem;
+    border-bottom: 0.0625rem solid #47ca94;
+    
+    
+}
+
+.review-texts {
+    display: flex;
+    display: block;
+    position: relative;
+    top: 3.125rem;
+    padding-left: 30rem;
+    margin-bottom: 0.9375rem;
+}
+
+.review-text-3 {
+    width: 37.5rem;
+
+}
+.review-img, .review-text-2, .review-text-3 {
+    margin-bottom: 0.9375rem;
+
+}
+.form {
+    margin-top: 1.25rem;
+    padding-bottom: 6.25rem;
+    background-image: url(@/assets/contact_g.jpg);
+    width: 100vw;
+    
+}
+.form-text-1 {
+    position: relative;
+    display: inline-block;
+    margin-left: 43%;
+    font-family: 'Poppins-bold';
+    margin-top: 3.125rem;
+    margin-bottom: 1.25rem;
+    border-bottom: 0.0625rem solid white;
+    color: white;
+}
+
+.form-div {
+    border: 0.0625rem solid white;
+    display: flex;
+    display: block;
+    margin-top: 1.25rem;
+    margin-left: 25rem;
+    height: 26.875rem;
+    width: 31.25rem;
+    padding: 0.625rem;
+    color: inherit;
+    padding-top: 1.25rem;
+}
+
+.input {
+    display: block;
+    width: 95%;
+    height: 2.5rem;
+    margin: 3%;
+    border: 1px solid white;
+    background-color: inherit;
+    color: white;
+}
+
+.input-1 {
+    display: block;
+    width: 95%;
+    height: 5rem;
+    margin: 3%;
+    border: 1px solid white;
+    background-color: inherit;
+}
+
+input:focus {
+    border: 0.0625rem solid white;
+    color: white;
+    padding-left: 0.625rem;
+    outline: none;
+    border-radius: 0.625rem;
+}
+
+input::placeholder {
+    color: white;
+    padding-left: 0.625rem;
+    padding-top: 1.25rem;
+}
+.submit {
+    left: 21.875rem;
+    width: 9.375rem;
+    height: 3.125rem;
+    margin-left: 10.625rem;
+    margin-top: 1.875rem;
+    border-radius: 3.125rem;
+    color: white;
+    background-color: #47ca94;
+    border: #47ca94;
+}
+.submit:hover {
+    cursor: pointer;
+    background-color: white;
+    border: white;
+    color: #47ca94;
+}
+
+footer {
+    background-image: url(@/assets/footer.jpg);
+    background-size: cover;
+}
+.footer-1 {
+    padding-left: 9.375rem;
+    padding-right: 9.375rem;
+    height: 23.75rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.footer-icons, .footer-text-1, .footer-text-2, .footer-newsletter {
+    display: flex;
+    display: block;
+    margin: 0.625rem;
+    height: 12.5rem;
+    width: 31.25rem;
+
+}
+
+.footer-icons {
+    margin-left: -1.875rem;
+}
+
+.icon {
+position: relative;
+width: 1.5625rem;
+height: 1.5625rem;
+margin: 0.3125rem;
+color: #22142b;
+background-color: white;
+padding: 0.3125rem;
+border: 0.0625rem solid grey;
+border-radius: 100%;
+top: -2.1875rem;
+}
+.icon-1 {
+    position: relative;
+    width: 2.1875rem;
+    height: 2.1875rem;
+    margin: 0.3125rem;
+    color: white;
+    top: -2.1875rem;
+}
+
+.icon:hover {
+    width: 2.1875rem;
+    height: 2.1875rem;
+}
+.icon-1:hover {
+    width: 2.5rem;
+    height: 2.8125rem;
+}
+.logo1 {
+    position: relative;
+    width: 4.875rem;
+    height: 5.125rem; 
+    margin-bottom: 3.75rem; 
+}
+
+
+.footer-icons {
+    margin-top: -3.125rem;
+
+}
+
+.footer-text-title {
+    font-family: 'Poppins-bold';
+    font-size: x-large;
+    margin-bottom: 0.625rem;
+
+}
+
+.footer-text-1, .footer-newsletter  {
+    color: white;
+    width: 31.25rem;
+    margin-left: 1.875rem;
+}
+
+.footer-text-2 {
+    color: white;
+    margin-left: 1.25rem;
+    width: 21.25rem;
+
+}
+
+.footer-newsletter {
+    margin-left: 6.25rem;
+    width: 15.625rem;
+}
+
+.newsletter-input {
+    height: 2.5rem;
+    width: 15.625rem;
+    margin-bottom: 0.9375rem;
+    border-radius: 0.625rem;
+    border: #ffffff;
+
+}
+
+.newsletter-input:focus {
+    border: 0.0625rem solid white;
+    color: #404241;
+    padding-left: 0.625rem;
+    outline: none;
+    border-radius: 0.625rem;
+}
+
+.newsletter-input::placeholder {
+    color: grey;
+    padding-left: 0.625rem;
+    padding-top: 1.25rem;
+}
+
+.newsletter-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7.8125rem;
+    height: 2.5rem;
+    padding: 0.625rem;
+    background-color: #47ca94;
+    color: white;
+    text-decoration: none;
+    border: 0.0625rem solid #47ca94;
+    border-radius: 0.625rem;
+}
+.newsletter-button:hover {
+    background-color: white;
+    cursor: pointer;
+    color: #47ca94;
+}
+
+.right-reserve {
+    position: relative;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    width: 64.375rem;
+    margin-left: 7.5rem;
+    margin-right: 9.375rem;
+    height: 1.25rem;
+    top: -1.25rem;
+    padding-top: 0.625rem;
+    border-top: 0.0625rem solid #ffffff;
+}
+
+@media (max-width: 800px ) {
+
+header {
+width: 100vw;
+height: 120vh;
+
+}
+.nav-1 {
+    display: none;
+}
+
+
+.menu-movil {
+    display: flex;
+}
+.nav_texts {
+margin-left: 1em;
+margin-right: 1em;
+margin-top: 8em;
+}
+
+.nav_text_1 {
+    width: 90%;
+    font-size: 200%;
+}
+
+
+.nav_text_2 {
+    font-size: 10vh;
+    width: 90%;
+}
+
+.nav_text_3 {
+    width: 90vw;
+}
+
+.nav-buttons {
+display: flex;
+width: 80%;
+}
+
+.nav-pct {
+    width: 90%;
+}
+
+.pct {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    top: 2.5em; 
+}
+
+.cards {
+display: grid;
+column-gap: normal;
+}
+.card {
+width: 80vw;
+height: auto;
+}
+
+.products {
+width: 100vw;
+height: 400vh;
+}
+
+.products-prods {
+grid-template-columns: repeat(1, 1fr);
+width: 60%;
+height: 350vh;
+margin-left: -5rem;
+}
+.products-title {
+left: 40%;
+}
+.see-more {
+    left: 12vw;
+
+}
+
+.computer_texts {
+    padding-left: 0rem;
+}
+.computer-buttons {
+    align-items: center;
+}
+
+.computer-pc {
+top: -1.875rem;
+left: 1.875rem;
+width: 80%;
+height: auto;
+}
+.cp {
+    height: 120vh;
+}
+
+.review {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.review-text-1 {
+    left: 35%;
+}
+.review-texts {
+    position: relative;
+    margin-left: -25rem;
+}
+.review-text-3 {
+    width: 24rem;
+}
+.form-div {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+
+}
+.form-text-1 {
+    margin-left: 35%;
+}
+
+.footer-1 {
+    height: 140vh;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-icons, .footer-text-1, .footer-text-2, .footer-newsletter {
+    width: 80vw;
+    height: 10vh;
+    margin: 2px;
+    padding: 2px;
+}
+.right-reserve {
+    margin-top: 30px ;
+    text-align: center;
+    width: 70vw;
+    height: 10vh;
+    align-items: center;
+}
+
+}
+
+
+
+</style>
